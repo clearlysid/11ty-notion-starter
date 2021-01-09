@@ -1,0 +1,32 @@
+{
+	"name": "11ty-notion-starter",
+	"version": "1.0.0",
+	"description": "A starter project to kick off a simple blog powered by Notion and 11ty!",
+	"dependencies": {
+		"@11ty/eleventy-cache-assets": "^2.0.4"
+	},
+	"devDependencies": {
+		"@11ty/eleventy": "^0.11.1",
+		"@11ty/eleventy-plugin-syntaxhighlight": "^3.0.5"
+	},
+	"scripts": {
+		"start": "npx @11ty/eleventy --serve",
+		"build": "npx @11ty/eleventy",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/clearlysid/11ty-notion-starter.git"
+	},
+	"keywords": [
+		"Notion",
+		"Blog",
+		"11ty"
+	],
+	"author": "Siddharth Jha / hey@sidds.me",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/clearlysid/11ty-notion-starter/issues"
+	},
+	"homepage": "https://github.com/clearlysid/11ty-notion-starter#readme"
+}
